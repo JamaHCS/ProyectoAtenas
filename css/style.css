@@ -8,10 +8,16 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+:root {
+    --Secundary-color-logo: #6187BA;
+    --main-color-logo: #122254;
+    --third-color-logo: #E9E748;
+}
+
 html,
 body {
-	height: 100%;
-	font-family: "Open Sans", sans-serif;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -227,8 +233,8 @@ ol {
 
 /* header top */
 .top-nav-section {
-	background: #3c1919;
-	padding: 15px 0;
+    background: var(--main-color-logo);
+    padding: 15px 0;
 }
 
 .top-nav-section .social {
@@ -263,7 +269,7 @@ ol {
 	font-size: 11px;
 	text-transform: uppercase;
 	color: #fff;
-	border-right: 1px solid #503030;
+	border-right: 1px solid var(--third-color-logo);
 	display: inline-block;
 }
 
@@ -276,14 +282,14 @@ ol {
 	color: #fff;
 }
 
-.counter-top .top-readmore {
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 600;
-	color: #dd3e3e;
-	top: -9px;
-	position: relative;
-}
+    .counter-top .top-readmore {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--Secundary-color-logo);
+        top: -9px;
+        position: relative;
+    }
 
 .user-input {
 	float: right;
@@ -309,7 +315,9 @@ ol {
 .site-logo {
 	display: inline-block;
 	margin-right: 20px;
-	padding-top: 5px;
+	padding-top: 0px;
+    margin-top:-2%;
+    width:230px;
 }
 
 .nav-switch {
