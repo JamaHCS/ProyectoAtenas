@@ -12,6 +12,7 @@
     --Secundary-color-logo: #6187BA;
     --main-color-logo: #122254;
     --third-color-logo: #E9E748;
+    --hover-list: #284EC1;
 }
 
 html,
@@ -83,7 +84,7 @@ ol {
 }
 
 /*---------------------
-	Commom elements
+   elementos dinamicos
 -----------------------*/
 
 /* Buttons */
@@ -96,7 +97,7 @@ ol {
 	text-transform: uppercase;
 	color: #fff;
 	border-radius: 2px;
-	background: #dd3e3e;
+	background: var(--Secundary-color-logo);
 	letter-spacing: 1px;
 	text-align: center;
 }
@@ -111,7 +112,7 @@ ol {
 
 .site-btn.sb-line {
 	background-color: transparent;
-	border: 2px solid #dd3e3e;
+	border: 2px solid var(--Secundary-color-logo);
 	color: #fff;
 	letter-spacing: 2px;
 }
@@ -156,19 +157,19 @@ ol {
 	0% {
 		-webkit-transform: rotate(0deg);
 		        transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid var(--main-color-logo);
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
 		        transform: rotate(180deg);
-		border: 4px solid #673ab7;
+		border: 4px solid var(--Secundary-color-logo);
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
 		        transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid var(--third-color-logo);
 		border-left-color: transparent;
 	}
 }
@@ -176,17 +177,17 @@ ol {
 @-webkit-keyframes loader {
 	0% {
 		-webkit-transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid var(--main-color-logo);
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
-		border: 4px solid #673ab7;
+		border: 4px solid var(--Secundary-color-logo);
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid var(--third-color-logo);
 		border-left-color: transparent;
 	}
 }
@@ -352,11 +353,11 @@ ol {
 }
 
 .main-menu ul li a:hover {
-	color: #dd3e3e;
+	color: var(--hover-list);
 }
 
 .main-menu ul li.active a {
-	color: #dd3e3e;
+	color: var(--Secundary-color-logo);
 }
 
 /*---------------------
