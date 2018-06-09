@@ -208,7 +208,7 @@ ol {
 .section-title span {
 	font-size: 16px;
 	font-weight: 700;
-	color: #dd3e3e;
+	color: var(--Secundary-color-logo);
 	margin-bottom: 10px;
 	display: block;
 }
@@ -411,8 +411,8 @@ ol {
 	Event Section
 -----------------------*/
 .event-section {
-	background: #dd3e3e;
-	padding: 20px 0;
+    background: #DD3E3E;
+    padding: 20px 0;
 }
 
 .event-section .counter {
@@ -460,14 +460,14 @@ ol {
 	overflow: hidden;
 }
 
-.event-date h2 {
-	display: block;
-	background: #fff;
-	color: #dd3e3e;
-	padding: 8px 0;
-	font-weight: 700;
-	margin-bottom: 5px;
-}
+    .event-date h2 {
+        display: block;
+        background: #fff;
+        color: #DD3E3E;
+        padding: 8px 0;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
 
 .event-info h3 {
 	padding-top: 5px;
@@ -569,9 +569,9 @@ ol {
 	margin-bottom: 10px;
 }
 
-.sermon-info li span {
-	color: #dd3e3e;
-}
+    .sermon-info li span {
+        color: var(--Secundary-color-logo);
+    }
 
 .icon-links {
 	margin-top: 40px;
@@ -596,10 +596,10 @@ ol {
 	margin-top: 10px;
 }
 
-.icon-links a:hover {
-	background: #dd3e3e;
-	color: #fff;
-}
+    .icon-links a:hover {
+        background: var(--Secundary-color-logo);
+        color: #fff;
+    }
 
 /*---------------------
 	Event Section
@@ -622,18 +622,18 @@ ol {
 }
 
 .event-list .el-date {
-	display: inline-block;
-	float: left;
-	text-align: center;
-	background: #dd3e3e;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	width: 75px;
-	font-size: 12px;
-	margin-right: 30px;
-	padding-bottom: 5px;
-	border-radius: 5px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    background: var(--Secundary-color-logo);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 75px;
+    font-size: 12px;
+    margin-right: 30px;
+    padding-bottom: 5px;
+    border-radius: 5px;
 }
 
 .event-list .el-date h2 {
@@ -662,9 +662,9 @@ ol {
 	margin-right: 15px;
 }
 
-.event-list .el-metas .el-meta i {
-	color: #dd3e3e;
-}
+    .event-list .el-metas .el-meta i {
+        color: var(--Secundary-color-logo);
+    }
 
 .event-list .el-metas .el-meta:last-child {
 	margin-right: 0;
@@ -675,7 +675,7 @@ ol {
 }
 
 .event-list .site-btn {
-	color: #dd3e3e;
+    color: var(--Secundary-color-logo);
 }
 
 /*---------------------
@@ -729,9 +729,9 @@ ol {
 	color: #fff;
 }
 
-.donate-info li span {
-	color: #dd3e3e;
-}
+    .donate-info li span {
+        color: var(--Secundary-color-logo);
+    }
 
 .donate-card {
 	margin-left: 30px;
@@ -740,11 +740,11 @@ ol {
 	border-radius: 4px;
 }
 
-.donate-card h2 {
-	font-weight: 700;
-	color: #dd3e3e;
-	margin-bottom: 60px;
-}
+    .donate-card h2 {
+        font-weight: 700;
+        color: var(--Secundary-color-logo);
+        margin-bottom: 60px;
+    }
 
 .donate-card h2 span {
 	font-family: "Lora", serif;
@@ -764,14 +764,14 @@ ol {
 	margin-bottom: 15px;
 }
 
-.donate-card .donate-progress-bar .pb-inner {
-	position: absolute;
-	height: 100%;
-	width: 60%;
-	left: 0;
-	top: 0;
-	background: #dd3e3e;
-}
+    .donate-card .donate-progress-bar .pb-inner {
+        position: absolute;
+        height: 100%;
+        width: 60%;
+        left: 0;
+        top: 0;
+        background: var(--Secundary-color-logo);
+    }
 
 .donate-card .donate-progress-bar .pb-inner span {
 	position: absolute;
@@ -840,13 +840,13 @@ ol {
 	        box-shadow: 0 30px 40px rgba(231, 234, 236, 0.7);
 }
 
-.blog-item .bi-content .date {
-	font-size: 14px;
-	font-family: "Lora", serif;
-	font-style: italic;
-	color: #dd3e3e;
-	margin-bottom: 10px;
-}
+    .blog-item .bi-content .date {
+        font-size: 14px;
+        font-family: "Lora", serif;
+        font-style: italic;
+        color: var(--Secundary-color-logo);
+        margin-bottom: 10px;
+    }
 
 .blog-item .bi-content h4 {
 	line-height: 1.4;
@@ -884,8 +884,8 @@ ol {
 	Newsletter Section
 -----------------------*/
 .newsletter-section {
-	padding: 55px 0;
-	background: #dd3e3e;
+    padding: 55px 0;
+    background: var(--Secundary-color-logo);
 }
 
 .newsletter-section h4 {
@@ -910,21 +910,21 @@ ol {
 	color: #fff;
 }
 
-.newsletter-form .nl-send-btn {
-	position: absolute;
-	height: 100%;
-	top: 0;
-	right: 0;
-	background: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 14px;
-	letter-spacing: 2px;
-	color: #dd3e3e;
-	border: none;
-	padding: 0 25px;
-	border-radius: 2px;
-}
+    .newsletter-form .nl-send-btn {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 2px;
+        color: var(--Secundary-color-logo);
+        border: none;
+        padding: 0 25px;
+        border-radius: 2px;
+    }
 
 .newsletter-form ::-webkit-input-placeholder {
 	color: #fff;
@@ -1100,11 +1100,11 @@ ol {
 	transition: all 0.4s;
 }
 
-.pageination-list a:hover {
-	color: #fff;
-	background: #dd3e3e;
-	border: 1px solid #dd3e3e;
-}
+    .pageination-list a:hover {
+        color: #fff;
+        background: var(--Secundary-color-logo);
+        border: 1px solid #dd3e3e;
+    }
 
 /*---------------------
 	About Page
@@ -1128,12 +1128,13 @@ ol {
 	font-size: 20px;
 }
 
-.pastor p {
-	font-family: "Lora", serif;
-	font-style: italic;
-	margin-bottom: 0;
-	color: #dd3e3e;
-}
+    .pastor p {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        margin-bottom: 0;
+        color: var(--Secundary-color-logo);
+        text-decoration: underline;
+    }
 
 /*---------------------
 	Sermons Page
@@ -1175,9 +1176,9 @@ ol {
 	        box-shadow: 0 0 0px 1px #ebebeb;
 }
 
-.sermon-item .icon-links a:hover {
-	background: #dd3e3e;
-}
+    .sermon-item .icon-links a:hover {
+        background: var(--Secundary-color-logo);
+    }
 
 /*---------------------
 	Blog Page
@@ -1202,11 +1203,11 @@ ol {
 }
 
 .single-post .date {
-	font-size: 14px;
-	font-family: "Lora", serif;
-	font-style: italic;
-	color: #dd3e3e;
-	margin-bottom: 10px;
+    font-size: 14px;
+    font-family: "Lora", serif;
+    font-style: italic;
+    color: var(--Secundary-color-logo);
+    margin-bottom: 10px;
 }
 
 .single-post .post-title {
@@ -1236,24 +1237,24 @@ ol {
 }
 
 .single-post blockquote {
-	margin: 30px 0;
-	border-left: 2px solid #dd3e3e;
-	padding: 8px 28px;
-	font-size: 18px;
-	font-family: "Lora", serif;
-	font-style: italic;
-	color: #636363;
+    margin: 30px 0;
+    border-left: 2px solid var(--Secundary-color-logo);
+    padding: 8px 28px;
+    font-size: 18px;
+    font-family: "Lora", serif;
+    font-style: italic;
+    color: #636363;
 }
 
-.single-post blockquote span {
-	display: block;
-	font-family: "Open Sans", sans-serif;
-	color: #dd3e3e;
-	font-style: normal;
-	font-size: 14px;
-	padding-top: 10px;
-	padding-bottom: 15px;
-}
+    .single-post blockquote span {
+        display: block;
+        font-family: "Open Sans", sans-serif;
+        color: var(--Secundary-color-logo);
+        font-style: normal;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
 
 .single-post .post-tags a {
 	display: inline-block;
@@ -1293,10 +1294,10 @@ ol {
 	transition: all 0.4s;
 }
 
-.single-post .social-share a:hover {
-	color: #fff;
-	background: #dd3e3e;
-}
+    .single-post .social-share a:hover {
+        color: #fff;
+        background: var(--Secundary-color-logo);
+    }
 
 .single-post .post-nav {
 	padding-top: 30px;
@@ -1310,9 +1311,9 @@ ol {
 	color: #636363;
 }
 
-.single-post .post-nav a i {
-	color: #dd3e3e;
-}
+    .single-post .post-nav a i {
+        color: var(--Secundary-color-logo);
+    }
 
 .single-post .post-nav .next-post {
 	float: right;
@@ -1376,10 +1377,10 @@ ol {
 	left: 0;
 }
 
-.widget ul a:hover,
-.widget ul a:hover:after {
-	color: #dd3e3e;
-}
+    .widget ul a:hover,
+    .widget ul a:hover:after {
+        color: var(--Secundary-color-logo);
+    }
 
 .widget .search-widget {
 	max-width: 270px;
@@ -1395,15 +1396,15 @@ ol {
 	font-size: 14px;
 }
 
-.widget .search-widget button {
-	position: absolute;
-	right: 10px;
-	top: 0;
-	color: #dd3e3e;
-	height: 100%;
-	border: none;
-	background-color: transparent;
-}
+    .widget .search-widget button {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        color: var(--Secundary-color-logo);
+        height: 100%;
+        border: none;
+        background-color: transparent;
+    }
 
 .widget .recent-post-widget .rp-item {
 	margin-bottom: 20px;
@@ -1418,14 +1419,14 @@ ol {
 	margin-right: 30px;
 }
 
-.widget .recent-post-widget .rp-content p {
-	font-size: 14px;
-	font-family: "Lora", serif;
-	font-style: italic;
-	color: #dd3e3e;
-	line-height: normal;
-	margin-bottom: 18px;
-}
+    .widget .recent-post-widget .rp-content p {
+        font-size: 14px;
+        font-family: "Lora", serif;
+        font-style: italic;
+        color: var(--Secundary-color-logo);
+        line-height: normal;
+        margin-bottom: 18px;
+    }
 
 .widget .recent-post-widget .rp-content h5 {
 	font-size: 18px;
