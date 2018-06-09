@@ -1739,14 +1739,12 @@ ol {
     width: 75px;
 }
 
-
-/*Modal*/
-
 .popup-modal {
     max-width: 550px;
     background: #fff;
     position: relative;
     margin: 0 auto;
+    z-index:3;
 }
 
     .popup-modal .description-box {
@@ -1799,3 +1797,8 @@ ol {
     .popup-modal a.popup-modal-dismiss {
         margin-left: 24px;
     }
+
+.button-modal {
+    border: 0px;
+    background: #f6f8f9;
+}

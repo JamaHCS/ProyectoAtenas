@@ -48,3 +48,7 @@ $(window).on('load', function() {
 
 })(jQuery);
 
+
+$('#btn').click(function () {
+    $('#modal').modal();
+});
