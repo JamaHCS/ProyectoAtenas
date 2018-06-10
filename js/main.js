@@ -52,3 +52,18 @@ $(window).on('load', function() {
 $('#btn').click(function () {
     $('#modal').modal();
 });
+
+
+$('#btn1').click(function () {
+    $('#modal1').modal();
+});
+
+
+$('#btn2').click(function () {
+    $('#modal2').modal();
+});
+
+
+$('#btn3').click(function () {
+    $('#modal3').modal();
+});
