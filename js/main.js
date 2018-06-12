@@ -67,3 +67,44 @@ $('#btn2').click(function () {
 $('#btn3').click(function () {
     $('#modal3').modal();
 });
+
+
+$('#btn4').click(function () {
+    $('#modal4').modal();
+});
+
+$('#btn5').click(function () {
+    $('#modal5').modal();
+});
+
+$('#btn6').click(function () {
+    $('#modal6').modal();
+});
+
+$('#btn7').click(function () {
+    $('#modal7').modal();
+});
+
+$('#btn8').click(function () {
+    $('#modal8').modal();
+});
+
+$('#btn9').click(function () {
+    $('#modal9').modal();
+});
+
+$('#btn10').click(function () {
+    $('#modal10').modal();
+});
+
+$('#btn11').click(function () {
+    $('#modal11').modal();
+});
+
+$('#btn12').click(function () {
+    $('#modal12').modal();
+});
+
+$('#btn13').click(function () {
+    $('#modal13').modal();
+});
