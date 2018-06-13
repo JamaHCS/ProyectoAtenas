@@ -1856,3 +1856,11 @@ ol {
     color: #000;
     font-family: "Open Sans", sans-serif;
 }
+.up{
+    margin-top:-56px;
+}
+
+.left{
+    margin-left:0px;
+    width:100%;
+}
