@@ -1864,3 +1864,10 @@ ol {
     margin-left:0px;
     width:100%;
 }
+
+.spad-50{
+    padding-top:32px;
+}
+.spad-bottom{
+    padding-bottom:40px;
+}
