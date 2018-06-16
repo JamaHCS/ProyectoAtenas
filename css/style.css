@@ -1151,7 +1151,7 @@ ol {
 }
 
 .sermon-item .si-thumb {
-	height: 250px;
+	height: 400px;
 }
 
 .sermon-item .sermon-info {
@@ -1870,4 +1870,14 @@ ol {
 }
 .spad-bottom{
     padding-bottom:40px;
+}
+.img {
+    display: block;
+    margin: auto;
+}
+.site-btn1.sb-line1 {
+    background-color: transparent;
+    border: 2px solid var(--Secundary-color-logo);
+    color: var(--main-color-logo);
+    letter-spacing: 2px;
 }
