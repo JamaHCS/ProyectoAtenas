@@ -108,3 +108,63 @@ $('#btn12').click(function () {
 $('#btn13').click(function () {
     $('#modal13').modal();
 });
+$('#btn14').click(function () {
+    $('#modal14').modal();
+});
+$('#btn15').click(function () {
+    $('#modal15').modal();
+});
+$('#btn16').click(function () {
+    $('#modal16').modal();
+});
+$('#btn17').click(function () {
+    $('#modal17').modal();
+});
+$('#btn18').click(function () {
+    $('#modal18').modal();
+});
+$('#btn19').click(function () {
+    $('#modal19').modal();
+});
+$('#btn20').click(function () {
+    $('#modal20').modal();
+});
+$('#btn21').click(function () {
+    $('#modal21').modal();
+});
+$('#btn22').click(function () {
+    $('#modal22').modal();
+});
+$('#btn23').click(function () {
+    $('#modal23').modal();
+});
+$('#btn24').click(function () {
+    $('#modal24').modal();
+});
+$('#btn25').click(function () {
+    $('#modal25').modal();
+});
+$('#btn26').click(function () {
+    $('#modal26').modal();
+});
+$('#btn27').click(function () {
+    $('#modal27').modal();
+});
+$('#btn28').click(function () {
+    $('#modal28').modal();
+});
+$('#btn29').click(function () {
+    $('#modal29').modal();
+});
+$('#btn30').click(function () {
+    $('#modal30').modal();
+});
+$('#btn31').click(function () {
+    $('#modal31').modal();
+});
+$('#btn32').click(function () {
+    $('#modal32').modal();
+});
+$('#btn33').click(function () {
+    $('#modal33').modal();
+});
