@@ -1881,3 +1881,38 @@ ol {
     color: var(--main-color-logo);
     letter-spacing: 2px;
 }
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spad-top-bottom {
+    padding-top: 50px 0;
+    margin-top: 40px;
+    padding-bottom: 50px 0;
+    margin-bottom: 40px;
+}
+
+
+.scrollup {
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    border: 1px solid #000;
+    display: none;
+    background: var(--main-color-logo);
+}
+
+    .scrollup > a {
+        position: relative;
+        top: 7px;
+        color: #fff;
+    }
